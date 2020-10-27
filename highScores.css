@@ -1,0 +1,17 @@
+#highScoreList {
+
+    list-style: none;
+    margin-bottom: 2rem;
+    padding-left: 0;
+}
+
+.high-score {
+
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover{
+    transform: scale(1.025);
+}
