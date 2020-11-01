@@ -31,6 +31,6 @@ saveHighScore = (e) => {
     Highscore.splice(5);
 
     localStorage.setItem("Highscores", JSON.stringify(Highscore));
-    window.location.assign("/");
+    window.location.assign("index.html");
 
 }

@@ -46,7 +46,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=mu
 
 //constants
 const CORRECT_BONUS = 10;
-const MAX_QUESTION  = 3;
+const MAX_QUESTION  = 5;
 
 startgame = () =>{
 
@@ -63,7 +63,7 @@ getNewQuestion = () =>{
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTION){
         localStorage.setItem("mostRecentScore", score);
-        return window.location.assign('/endgame.html');
+        return window.location.assign('endgame.html');
     }
 
     questionCounter++;
